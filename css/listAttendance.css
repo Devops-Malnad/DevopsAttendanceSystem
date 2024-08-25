@@ -122,6 +122,7 @@ tr:hover {
 
     .navbar a {
         font-size: 14px;
+        float: right;
     }
 
     th, td {
