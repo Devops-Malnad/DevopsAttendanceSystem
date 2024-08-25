@@ -92,7 +92,7 @@ tr:hover {
 @media (max-width: 768px) {
     .navbar {
         position: static;
-        margin-right: 10px;
+        margin-right: 0px;
         margin-top: 10px;
     }
 
