@@ -1,0 +1,136 @@
+body {
+    background-color: #1a1a1a; /* Dark black background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #1e90ff;
+}
+
+.dataTable {
+    margin-top: 80px;
+    text-align: center;
+    overflow-x: auto; /* For responsive table scrolling */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1a2b3c; /* Dark blue table background */
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ffffff; /* White border */
+    text-align: center;
+}
+
+th {
+    background-color: #2e3f55; /* Darker blue for header */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #1e2a3b; /* Alternate row color */
+}
+
+tr:hover {
+    background-color: #273a50; /* Hover color */
+}
+
+.download-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2e3f55;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto; /* Centering the button */
+    text-align: center;
+}
+
+.download-btn:hover {
+    background-color: #1e2a3b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .download-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 40px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    th, td {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .download-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
