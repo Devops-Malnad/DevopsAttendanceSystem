@@ -92,8 +92,8 @@ tr:hover {
 @media (max-width: 768px) {
     .navbar {
         position: static;
-        margin-right: 0px;
-        margin-top: 10px;
+        text-align: center;
+        padding-top: 10px;
     }
 
     .navbar a {
