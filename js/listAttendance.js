@@ -35,7 +35,7 @@ window.addEventListener("load", function(e) {
             headData.push(doc.id);
         });
 
-        const len = headData.length - 2;
+        const len = headData.length - 1;
 
         //setting Name head Percentage in header of table
         var th = document.createElement('th');
