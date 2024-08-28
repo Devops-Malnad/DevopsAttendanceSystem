@@ -92,13 +92,11 @@ tr:hover {
 @media (max-width: 768px) {
     .navbar {
         position: static;
-        text-align: center;
-        padding-top: 10px;
+        text-align: right;
     }
 
     .navbar a {
         display: block;
-        margin: 10px 0;
     }
 
     .logo img {
