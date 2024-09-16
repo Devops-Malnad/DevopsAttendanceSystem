@@ -58,6 +58,7 @@ window.addEventListener("load", function(e) {
             var p = 0; //percentage
             headData.forEach(headerText => {
                 const value = data[headerText] || '';
+                rowObj[headerText] = value;
                 if (value == 'P') {
                     p = p + 1;
                 }
