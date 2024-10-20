@@ -1,6 +1,6 @@
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js';
 import 'https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js';
-import { getFirestore, collection, getDocs, deleteDoc } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js';
+import { getFirestore, collection, getDocs, deleteDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js';
 
 const authToken = localStorage.getItem("authToken");
 if (!authToken) {
